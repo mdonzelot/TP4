@@ -18,12 +18,24 @@
     <ClInclude Include="BasicEncrypt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Encrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cesar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicEncrypt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Encrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cesar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

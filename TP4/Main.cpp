@@ -4,7 +4,6 @@
 #include <iostream>
 #include <string>
 
-
 int main() {
 
 	BasicEncrypt word("test");
@@ -14,9 +13,14 @@ int main() {
 	word2.decode();
 	word.encode();
 	std::cout << word.getcypher() << word2.getplain()<<std::endl;
+	word.getplain();
 
+	Cesar code("test");
+	code.encode();
+	std::cout << code.get_cypher() << std::endl;
 
+	
 
-
+	
 	return 0;
 }
