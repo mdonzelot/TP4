@@ -1,4 +1,6 @@
 #include "BasicEncrypt.h"
+#include "Encrypt.h"
+#include "Cesar.h"
 #include <iostream>
 #include <string>
 
