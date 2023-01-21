@@ -5,7 +5,7 @@
 #include <string>
 
 int main() {
-
+	
 	BasicEncrypt word("test");
 	BasicEncrypt word2("bonjour");
 	word.setplain();
@@ -15,12 +15,20 @@ int main() {
 	std::cout << word.getcypher() << word2.getplain()<<std::endl;
 	word.getplain();
 
-	Cesar code("test");
+	Cesar code("ceci est une phrase avec un espace");
+	code.set_plain();
 	code.encode();
 	std::cout << code.get_cypher() << std::endl;
+	Cesar reverse("gigm iwx yri tlvewi ezig yr iwtegi");
+	reverse.set_cypher();
+	reverse.decode();
+	std::cout << reverse.get_plain() << std::endl;
 
-	
-
+	Cesar fichier("D:/TP4/Text.txt");
+	fichier.read();
+	fichier.encode();
+	std::cout << fichier.get_cypher() << std::endl;
+	fichier.write();
 	
 	return 0;
 }
