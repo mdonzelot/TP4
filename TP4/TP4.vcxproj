@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClInclude Include="BasicEncrypt.h" />
     <ClInclude Include="Cesar.h" />
+    <ClInclude Include="Cesar2.h" />
     <ClInclude Include="Encrypt.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicEncrypt.cpp" />
     <ClCompile Include="Cesar.cpp" />
+    <ClCompile Include="Cesar2.cpp" />
     <ClCompile Include="Encrypt.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>

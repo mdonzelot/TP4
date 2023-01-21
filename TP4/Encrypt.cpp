@@ -61,7 +61,7 @@ void Encrypt::read() {
 
 void Encrypt::write() {
 	int a;
-	std::cout << "Si le message a acrire est crypte, tapez 1. Si le message a ecrire est decrypte tapez 2" << std::endl;
+	std::cout << "Si le message a ecrire est crypte, tapez 1. Si le message a ecrire est decrypte tapez 2" << std::endl;
 	std::cin >> a;
 	std::ofstream file(_word,std::ios::app);
 	if (file) {

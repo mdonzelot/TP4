@@ -1,12 +1,13 @@
 #include "BasicEncrypt.h"
 #include "Encrypt.h"
 #include "Cesar.h"
+#include "Cesar2.h"
 #include <iostream>
 #include <string>
 
 int main() {
 	
-	BasicEncrypt word("test");
+	/*BasicEncrypt word("test");
 	BasicEncrypt word2("bonjour");
 	word.setplain();
 	word2.setcypher();
@@ -28,7 +29,12 @@ int main() {
 	fichier.read();
 	fichier.encode();
 	std::cout << fichier.get_cypher() << std::endl;
-	fichier.write();
+	fichier.write();*/
 	
+	Cesar2 oucca("D:/TP4/Cesar2.txt");
+	oucca.read();
+	oucca.decode();
+	oucca.write();
+
 	return 0;
 }
