@@ -27,6 +27,9 @@
     <ClInclude Include="Cesar2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Vigenere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicEncrypt.cpp">
@@ -42,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Cesar2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vigenere.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -66,10 +66,12 @@ void Encrypt::write() {
 	std::ofstream file(_word,std::ios::app);
 	if (file) {
 		if (a == 1) {
+			file << std::endl;
 			file << "Voici votre message crypte" << std::endl;
 			file << _cypher << std::endl;
 		}
 		else if (a == 2) {
+			file << std::endl;
 			file << "Voici votre message decrypte" << std::endl;
 			file << _plain << std::endl;
 		}

@@ -8,7 +8,7 @@ void Cesar2::encode() {
 	for (int i = 0; i != _plain.size(); i++) {
 		char(x) = _plain[i];
 			int b = int(x);
-			b += 3;
+			b += k;
 			b %= 127;;
 			_changed[i] = char(b);
 		};
